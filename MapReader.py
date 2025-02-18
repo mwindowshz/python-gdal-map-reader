@@ -106,7 +106,7 @@ class GdalMapReader:
             # Use the GeoTransform of the overview level
             overview_geo_transform = self.get_overview_geotransform(overview_level)
 
-        self.curent_center = coord_center
+        self.current_center = coord_center
         self.current_zoom_level = overview_level
         # Calculate pixel coordinates from geographical coordinates
         lon, lat = coord_center
